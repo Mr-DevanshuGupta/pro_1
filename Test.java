@@ -1,3 +1,5 @@
+import java.util.*;
+
 abstract class Animal {
     public abstract void makeSound();
 
@@ -20,13 +22,13 @@ class Cat extends Animal {
         System.out.println("I make sound of meow meow");
     }
 
-    public void eat(){
+    public void eat() {
         System.out.println("I eat mouse");
     }
 }
 
-class Mouse extends Animal{
-    public void makeSound(){
+class Mouse extends Animal {
+    public void makeSound() {
         System.out.println("I make sound of che che");
     }
 }

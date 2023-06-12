@@ -1,6 +1,6 @@
 class Dev{
 public static void main(String args[]){
-//int a = Integer.parseInt(args[0]);8=
+int a = Integer.parseInt(args[0]);
 //int b = Integer.parseInt(args[1]);
 //System.out.println(args[0] + " Technologies " + args[1]);
 //System.out.println("Welcome " + args[0]);
