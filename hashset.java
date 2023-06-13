@@ -4,11 +4,11 @@ public class hashset {
     public static void main(String args[]) {
         HashSet<String> set = new HashSet();
 
-        set.add("My");
-        set.add("Name");
-        set.add("is");
         set.add("Devanshu");
-        set.add("Gupta");
+        set.add("Muttu");
+        set.add("Raj");
+        set.add("Devanshu");
+        set.add("Raj");
 
         Iterator<String> itr = set.iterator();
         while (itr.hasNext()) {
