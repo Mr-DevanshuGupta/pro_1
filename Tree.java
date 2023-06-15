@@ -7,7 +7,7 @@ public class Tree {
         ht.add(23);
         ht.add(56);
         ht.add(23);
-        ht.add(78);
+        ht.add(8);
 
         System.out.println(ht);
         ht.remove(23);
