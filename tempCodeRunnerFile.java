@@ -1,13 +1,13 @@
-try {
+  try {
+            int i = 0;
+            FileInputStream fin = new FileInputStream("test.txt");
 
-        //     FileOutputStream fout = new FileOutputStream("test.txt");
+            while ((i = fin.read()) != -1) {
+                System.out.print((char) i);
 
-        //     String s = "Hi i m devanshu gupta";
+            }
+            fin.close();
 
-        //     byte b[] = s.getBytes();
-        //     fout.write(b);
-        //     fout.close();
-        //     System.out.println("success..");
-        // } catch (Exception e) {
-        //     System.out.println(e);
-        // }
+        } catch (Exception e) {
+            System.out.println(e);
+        }
