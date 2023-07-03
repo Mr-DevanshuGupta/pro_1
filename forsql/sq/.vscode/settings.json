@@ -3,8 +3,6 @@
   "java.project.outputPath": "bin",
   "java.project.referencedLibraries": [
     "lib/**/*.jar",
-    "C:/Users/devanshu/Downloads/*.jar",
     "c:\\Program Files (x86)\\MySQL\\Connector J 8.0\\mysql-connector-j-8.0.33.jar"
-  ],
-  "java.debug.settings.onBuildFailureProceed": true
+  ]
 }
